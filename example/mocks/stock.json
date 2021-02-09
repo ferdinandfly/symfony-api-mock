@@ -1,0 +1,65 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/Stock",
+            "@id": "/api/stocks/eyJ6b25lIjoiRVVSIiwibWFycXVlIjoiSU1TIiwiY2libGUiOjAsIm51YW5jZSI6IjEuMjMxMitRVCIsImZvcm1lIjoiTkJSIiwidW5pdGUiOiJNIiwiZGV2aXNlIjoiRVVSIiwiZGltZW5zaW9ucyI6eyJ2YWx1ZXMiOnsiMSI6IjE2In0sImxlbmd0aCI6NDAwMH0sImNoYXJhY3RlcmlzdGljcyI6eyIxIjoiSCJ9LCJjb2RlUGF5cyI6ImZyLWZyIiwibnVtQ2xpIjo1MDEzNTQsImlkTWF0ZXJpYWxHcm91cCI6MTc4NjU5LCJudW1Tb2MiOjQwMSwiY2VydGlmaWNhdGUiOm51bGwsImlzTG9uZ1Byb2R1Y3QiOnRydWUsInF1YW50aXR5UmVxdWVzdGVkIjoxMywic2hpcHBpbmdBZGRyZXNzIjoiSk0gRGlnaXRhbCBUZWFtIC0gMjAgUlVFIERFIExBIFJPQ0hFIExBIFZBUklaRUxMRSAtIFNBSU5UIENIQU1PTkQgLSA0MjQwMCAtIEYiLCJjb250YWN0RW1haWwiOiJoLnRhbkBqYWNxdWV0bWV0YWxzLmNvbSIsInNoaXBwaW5nQWRkcmVzc0lkIjo1NjkxODEsImFnZW5jeUNvZGUiOiJTMDAifQ%253D%253D",
+            "@type": "Stock",
+            "data": [
+                {
+                    "location": "IB",
+                    "stock": 1649,
+                    "total_stock": 1654,
+                    "is_favorite": true,
+                    "stock_requested": 13,
+                    "deliveryLeadTime": 3,
+                    "distance": null
+                }
+            ],
+            "availableStock": 1649,
+            "hasStock": true,
+            "length": 4000,
+            "theoreticalWeight": {
+                "volumeUnit": "M",
+                "formeUnit": "K",
+                "theoreticalWeight": "1,578635"
+            },
+            "debug": true,
+            "allData": {
+                "hasStock": true,
+                "quantityRequested": 13,
+                "quantityAvailable": 13,
+                "quantityRemaining": 0,
+                "internal": [
+                    {
+                        "location": "IB",
+                        "stock": 1649,
+                        "total_stock": 1654,
+                        "is_favorite": true,
+                        "stock_requested": 13,
+                        "deliveryLeadTime": 3,
+                        "distance": null
+                    }
+                ],
+                "external": [],
+                "favorite_location": "IB",
+                "stockRequest": {
+                    "contactEmail": "h.tan@jacquetmetals.com",
+                    "shippingAddress": "JM Digital Team - 20 RUE DE LA ROCHE LA VARIZELLE - SAINT CHAMOND - 42400 - F",
+                    "shippingAddressId": 569181,
+                    "agencyCode": "S00"
+                },
+                "payload": "eyJ6b25lIjoiRVVSIiwibWFycXVlIjoiSU1TIiwiY2libGUiOjAsIm51YW5jZSI6IjEuMjMxMitRVCIsImZvcm1lIjoiTkJSIiwidW5pdGUiOiJNIiwiZGV2aXNlIjoiRVVSIiwiZGltZW5zaW9ucyI6eyJ2YWx1ZXMiOnsiMSI6IjE2In0sImxlbmd0aCI6NDAwMH0sImNoYXJhY3RlcmlzdGljcyI6eyIxIjoiSCJ9LCJjb2RlUGF5cyI6ImZyLWZyIiwibnVtQ2xpIjo1MDEzNTQsImlkTWF0ZXJpYWxHcm91cCI6MTc4NjU5LCJudW1Tb2MiOjQwMSwiY2VydGlmaWNhdGUiOm51bGwsImlzTG9uZ1Byb2R1Y3QiOnRydWUsInF1YW50aXR5UmVxdWVzdGVkIjoxMywic2hpcHBpbmdBZGRyZXNzIjoiSk0gRGlnaXRhbCBUZWFtIC0gMjAgUlVFIERFIExBIFJPQ0hFIExBIFZBUklaRUxMRSAtIFNBSU5UIENIQU1PTkQgLSA0MjQwMCAtIEYiLCJjb250YWN0RW1haWwiOiJoLnRhbkBqYWNxdWV0bWV0YWxzLmNvbSIsInNoaXBwaW5nQWRkcmVzc0lkIjo1NjkxODEsImFnZW5jeUNvZGUiOiJTMDAifQ==",
+                "lead_time": [
+                    {
+                        "production_location": "IB",
+                        "*****production_time*****": 1,
+                        "favorite_location": "IB",
+                        "road_from_IB_to_customer": "",
+                        "transport_zone_from_IB_to_customer": "ZT45"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": {
+                "@vocab": "http:\/\/japi.ticket.jacquetmetals.com\/api\/docs.jsonld#",
+                "hydra": "http:\/\/www.w3.org\/ns\/hydra\/core#",
+                "id": "AddressOutput\/id",
+                "name": "AddressOutput\/name",
+                "streets": "AddressOutput\/streets",
+                "city": "AddressOutput\/city",
+                "postCode": "AddressOutput\/postCode",
+                "countryCode": "AddressOutput\/countryCode",
+                "type": "AddressOutput\/type"
+            },
+            "@type": "AgencyAddress",
+            "@id": "\/api\/agency_addresses\/555618",
+            "id": 555618,
+            "name": "GERMOND SA",
+            "streets": [
+                "36, RUE DE BAGNEAUX",
+                "Z.I  CH.BEAUHAIRE NORD",
+                "BP 121"
+            ],
+            "city": "ST JEAN DE LA RUELLE CEDEX",
+            "postCode": "45143",
+            "countryCode": "F",
+            "type": "F"
+        }
+    }
+]

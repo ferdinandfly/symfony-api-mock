@@ -1,0 +1,27 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/User",
+            "@id": "/api/users",
+            "@type": "hydra:Collection",
+            "hydra:member": [
+                {
+                    "@id": "/api/users/5381",
+                    "id": 5381,
+                    "codeCompany": 401,
+                    "email": "fpoujetoux@ims-group.com",
+                    "enabled": "O",
+                    "phoneNumber": "04 72 47 59 83",
+                    "fullName": "FRANÇOIS POUJETOUX",
+                    "area": "IB"
+                }
+            ],
+            "hydra:totalItems": 1,
+            "hydra:view": {
+                "@id": "/api/users?codeCompany=401&enabled=O&agencySalesmen.agencyCustomer.contactAgencyCustomers.contact.enabled=O&agencySalesmen.agencyCustomer.contactAgencyCustomers.contact.customerContacts.email=h.tan%40jacquetmetals.com&agencySalesmen.agencyCustomer.contactAgencyCustomers.contact.customerContacts.customer.code=501354",
+                "@type": "hydra:PartialCollectionView"
+            }
+        }
+    }
+]

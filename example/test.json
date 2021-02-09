@@ -1,0 +1,74 @@
+{
+    "PROVENANCE": "WEBSHOP",
+    "RESPONSE_BY_MAIL": false,
+    "CUSTOMER": {
+        "NUMCLI": 501354,
+        "NUMSOC": 401
+    },
+    "COMMENT_PRINTDOC": [
+        "BL",
+        "BT"
+    ],
+    "BTORDER": [
+        {
+            "REFCLI": "Commande webshop",
+            "AGENCE": "S00",
+            "LIEU": "",
+            "DELIVERYADDRESS": {
+                "LIBCOMM": "JM Digital Team",
+                "LIBADR1": "36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                "LIBADR2": "",
+                "LIBADR3": "",
+                "CODPAYS": "F",
+                "CODPOST": "45143",
+                "LIBVILLE": "ST JEAN DE LA RUELLE CEDEX",
+                "STATE": null,
+                "ADDRESS": "JM Digital Team - 36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121 - ST JEAN DE LA RUELLE CEDEX - 45143 - F"
+            },
+            "DELIVERYADDRESSID": 555619,
+            "INVOICEADDRESS": {
+                "LIBCOMM": "JM Digital Team",
+                "LIBADR1": "36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                "LIBADR2": "",
+                "LIBADR3": "",
+                "CODPAYS": "F",
+                "CODPOST": "45143",
+                "LIBVILLE": "ST JEAN DE LA RUELLE CEDEX",
+                "STATE": null,
+                "ADDRESS": "JM Digital Team - 36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121 - ST JEAN DE LA RUELLE CEDEX - 45143 - F"
+            },
+            "COMMENTS": [],
+            "LINESORDER": [
+                {
+                    "ID_MATERIEL_GROUPE": 178652,
+                    "LIBNUANCE": "1.2312+QT",
+                    "NUMREF": "",
+                    "CODNORM": "",
+                    "CODPROD": "",
+                    "DIMENSIONS": "",
+                    "CODMACH": "N",
+                    "REFCLI": null,
+                    "DATLIVR": "",
+                    "QTE": 9,
+                    "UV": "K",
+                    "UC": "P",
+                    "PDS": "",
+                    "PV": 5.34,
+                    "PVBASE": "",
+                    "TYPLONGUEUR": "S",
+                    "LONGUEUR": "4000",
+                    "LIEU": "",
+                    "REFPRODCLI": "",
+                    "NUM_CONTRAT": "",
+                    "CCPU2": "",
+                    "EXTRACOSTS": [],
+                    "INDIC_LIVR_PARTIEL": "N",
+                    "STOCKREQUESTPAYLOAD": "eyJ6b25lIjoiRVVSIiwibWFycXVlIjoiSU1TIiwiY2libGUiOjAsIm51YW5jZSI6IjEuMjMxMitRVCIsImZvcm1lIjoiTkJSIiwidW5pdGUiOiJNIiwiZGV2aXNlIjoiRVVSIiwiZGltZW5zaW9ucyI6eyJsZW5ndGgiOjQwMDAsInZhbHVlcyI6eyIxIjoiMTAifX0sImNoYXJhY3RlcmlzdGljcyI6eyIxIjoiSCJ9LCJjb2RlUGF5cyI6ImZyLWZyIiwibnVtQ2xpIjo1MDEzNTQsImlkTWF0ZXJpYWxHcm91cCI6MTc4NjUyLCJudW1Tb2MiOjQwMSwiY2VydGlmaWNhdGUiOm51bGwsImlzTG9uZ1Byb2R1Y3QiOnRydWUsInF1YW50aXR5UmVxdWVzdGVkIjoyMywic2hpcHBpbmdBZGRyZXNzIjoiSk0gRGlnaXRhbCBUZWFtIC0gMzYsIFJVRSBERSBCQUdORUFVWCBaLkkgIENILkJFQVVIQUlSRSBOT1JEIEJQIDEyMSAtIFNUIEpFQU4gREUgTEEgUlVFTExFIENFREVYIC0gNDUxNDMgLSBGIiwiY29udGFjdEVtYWlsIjoiaC50YW5AamFjcXVldG1ldGFscy5jb20iLCJzaGlwcGluZ0FkZHJlc3NJZCI6NTU1NjE5LCJhZ2VuY3lDb2RlIjoiUzAwIn0="
+                }
+            ],
+            "SCHEDULE_RESERVATION": true,
+            "EXTRACOSTS": [],
+            "INDIC_LIVR_PARTIEL": "N"
+        }
+    ]
+}

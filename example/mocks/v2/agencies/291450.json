@@ -1,0 +1,215 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": {
+                "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                "hydra": "http://www.w3.org/ns/hydra/core#",
+                "id": "AgencyCustomerOutput/id",
+                "name": "AgencyCustomerOutput/name",
+                "code": "AgencyCustomerOutput/code",
+                "salesmanName": "AgencyCustomerOutput/salesmanName",
+                "addresses": "AgencyCustomerOutput/addresses",
+                "additionalCosts": "AgencyCustomerOutput/additionalCosts"
+            },
+            "@type": "Agencies",
+            "@id": "/api/agencies/291450",
+            "id": 291450,
+            "name": "GERMOND SA",
+            "code": "S00",
+            "salesmanName": "FARIDA AZZI",
+            "addresses": [
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2138",
+                    "id": 555617,
+                    "name": "GERMOND SA",
+                    "streets": [
+                        "36, RUE DE BAGNEAUX",
+                        "Z.I  CH.BEAUHAIRE NORD",
+                        "BP 121"
+                    ],
+                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                    "postCode": "45143",
+                    "countryCode": "F",
+                    "type": "C"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2139",
+                    "id": 555618,
+                    "name": "GERMOND SA",
+                    "streets": [
+                        "36, RUE DE BAGNEAUX",
+                        "Z.I  CH.BEAUHAIRE NORD",
+                        "BP 121"
+                    ],
+                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                    "postCode": "45143",
+                    "countryCode": "F",
+                    "type": "F"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2140",
+                    "id": 555619,
+                    "name": "GERMOND  SA",
+                    "streets": [
+                        "36 RUE DE BAGNEAUX",
+                        "Z.I  CH.BEAUHAIRE NORD",
+                        "BP 121"
+                    ],
+                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                    "postCode": "45143",
+                    "countryCode": "F",
+                    "type": "L"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2141",
+                    "id": 905200,
+                    "name": "GERMOND SA",
+                    "streets": [
+                        "36, RUE DE BAGNEAUX",
+                        "Z.I  CH.BEAUHAIRE NORD",
+                        "BP 121"
+                    ],
+                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                    "postCode": "45143",
+                    "countryCode": "F",
+                    "type": "K"
+                }
+            ],
+            "additionalCosts": [
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AdditionalCostOutput/id",
+                        "idGroup": "AdditionalCostOutput/idGroup",
+                        "order": "AdditionalCostOutput/order",
+                        "price": "AdditionalCostOutput/price",
+                        "label": "AdditionalCostOutput/label",
+                        "header": "AdditionalCostOutput/header",
+                        "unit": "AdditionalCostOutput/unit",
+                        "line": "AdditionalCostOutput/line",
+                        "included": "AdditionalCostOutput/included",
+                        "codProd": "AdditionalCostOutput/codProd"
+                    },
+                    "@type": "AdditionalCost",
+                    "@id": "/api/additional_costs/1822",
+                    "id": 1822,
+                    "idGroup": 1736,
+                    "order": 1,
+                    "price": 1,
+                    "label": "LAB_CS_CARRIAGE",
+                    "header": "O",
+                    "unit": "K",
+                    "line": "O",
+                    "included": "O",
+                    "codProd": "POR"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AdditionalCostOutput/id",
+                        "idGroup": "AdditionalCostOutput/idGroup",
+                        "order": "AdditionalCostOutput/order",
+                        "price": "AdditionalCostOutput/price",
+                        "label": "AdditionalCostOutput/label",
+                        "header": "AdditionalCostOutput/header",
+                        "unit": "AdditionalCostOutput/unit",
+                        "line": "AdditionalCostOutput/line",
+                        "included": "AdditionalCostOutput/included",
+                        "codProd": "AdditionalCostOutput/codProd"
+                    },
+                    "@type": "AdditionalCost",
+                    "@id": "/api/additional_costs/60581",
+                    "id": 60581,
+                    "idGroup": 1736,
+                    "order": 2,
+                    "price": 2,
+                    "label": "LAB_CS_PACKING",
+                    "header": "N",
+                    "unit": "K",
+                    "line": "N",
+                    "included": "O",
+                    "codProd": "EMB"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AdditionalCostOutput/id",
+                        "idGroup": "AdditionalCostOutput/idGroup",
+                        "order": "AdditionalCostOutput/order",
+                        "price": "AdditionalCostOutput/price",
+                        "label": "AdditionalCostOutput/label",
+                        "header": "AdditionalCostOutput/header",
+                        "unit": "AdditionalCostOutput/unit",
+                        "line": "AdditionalCostOutput/line",
+                        "included": "AdditionalCostOutput/included",
+                        "codProd": "AdditionalCostOutput/codProd"
+                    },
+                    "@type": "AdditionalCost",
+                    "@id": "/api/additional_costs/60582",
+                    "id": 60582,
+                    "idGroup": 1736,
+                    "order": 3,
+                    "price": 3,
+                    "label": "LAB_CS_CERTIFICATE",
+                    "header": "N",
+                    "unit": "K",
+                    "line": "N",
+                    "included": "N",
+                    "codProd": "CA"
+                }
+            ]
+        }
+    }
+]

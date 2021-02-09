@@ -1,0 +1,130 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": {
+                "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                "hydra": "http://www.w3.org/ns/hydra/core#",
+                "id": "AgencyCustomerOutput/id",
+                "name": "AgencyCustomerOutput/name",
+                "code": "AgencyCustomerOutput/code",
+                "salesmanName": "AgencyCustomerOutput/salesmanName",
+                "addresses": "AgencyCustomerOutput/addresses",
+                "additionalCosts": "AgencyCustomerOutput/additionalCosts"
+            },
+            "@type": "Agencies",
+            "@id": "/api/agencies/296996",
+            "id": 296996,
+            "name": "LMS - SAINT CHAMOND - 42",
+            "code": "S00",
+            "salesmanName": "LUC DECRETTE",
+            "addresses": [
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2134",
+                    "id": 597154,
+                    "name": "SA COUZON ACIERS SERVICES",
+                    "streets": [
+                        "20 RUE DE LA ROCHE",
+                        "BP 51 LA VARIZELLE"
+                    ],
+                    "city": "ST CHAMOND",
+                    "postCode": "42400",
+                    "countryCode": "F",
+                    "type": "K"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2135",
+                    "id": 569180,
+                    "name": "SA COUZON ACIERS SERVICES",
+                    "streets": [
+                        "20 RUE DE LA ROCHE",
+                        "BP 51 LA VARIZELLE"
+                    ],
+                    "city": "ST CHAMOND",
+                    "postCode": "42400",
+                    "countryCode": "F",
+                    "type": "C"
+                },
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AddressOutput/id",
+                        "name": "AddressOutput/name",
+                        "streets": "AddressOutput/streets",
+                        "city": "AddressOutput/city",
+                        "postCode": "AddressOutput/postCode",
+                        "countryCode": "AddressOutput/countryCode",
+                        "type": "AddressOutput/type"
+                    },
+                    "@type": "AddressOutput",
+                    "@id": "_:2136",
+                    "id": 569181,
+                    "name": "SA COUZON ACIERS SERVICE",
+                    "streets": [
+                        "20 RUE DE LA ROCHE",
+                        "LA VARIZELLE"
+                    ],
+                    "city": "SAINT CHAMOND",
+                    "postCode": "42400",
+                    "countryCode": "F",
+                    "type": "L"
+                }
+            ],
+            "additionalCosts": [
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "id": "AdditionalCostOutput/id",
+                        "idGroup": "AdditionalCostOutput/idGroup",
+                        "order": "AdditionalCostOutput/order",
+                        "price": "AdditionalCostOutput/price",
+                        "label": "AdditionalCostOutput/label",
+                        "header": "AdditionalCostOutput/header",
+                        "unit": "AdditionalCostOutput/unit",
+                        "line": "AdditionalCostOutput/line",
+                        "included": "AdditionalCostOutput/included",
+                        "codProd": "AdditionalCostOutput/codProd"
+                    },
+                    "@type": "AdditionalCost",
+                    "@id": "/api/additional_costs/49606",
+                    "id": 49606,
+                    "idGroup": 42384,
+                    "order": 1,
+                    "price": 0,
+                    "label": "LAB_CS_CERTIFICATE",
+                    "header": "N",
+                    "unit": "G",
+                    "line": "O",
+                    "included": "N",
+                    "codProd": "CA"
+                }
+            ]
+        }
+    }
+]

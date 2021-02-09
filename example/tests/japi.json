@@ -1,0 +1,54 @@
+{
+    "GET": {
+        "/users": {
+            "content-type": "application/vnd.api+json",
+            "mock": "users.json"
+        },
+        "/api/stocks/[{path:.*}]": {
+            "content-type": "application/vnd.api+json",
+            "mock": "stock.json"
+        },
+        "/v2/customer_contacts": {
+            "content-type": "application/vnd.api+json",
+            "mock": "v2/customer_contacts.json"
+        },
+        "/api/prices": {
+            "content-type": "application/vnd.api+json",
+            "mock": "prices.json"
+        },
+        "/v2/agencies/[{path:.*}]": {
+            "content-type": "application/vnd.api+json",
+            "mock": "v2/agencies/296996.json"
+        },
+        "/v2/agency_addresses/[{path:.*}]": {
+            "content-type": "application/vnd.api+json",
+            "mock": "v2/agency_addresses.json"
+        },
+        "/v2/customers": {
+            "content-type": "application/vnd.api+json",
+            "mock": "v2/customers.json"
+        },
+        "/customer_orders": {
+            "content-type": "application/vnd.api+json",
+            "mock": "customer_orders.json"
+        },
+        "/customer_orders/6239813": {
+            "content-type": "application/vnd.api+json",
+            "mock": "customer_orders/6239813.json"
+        },
+        "/customer_orders/6239801": {
+            "content-type": "application/vnd.api+json",
+            "mock": "customer_orders/6239801.json"
+        },
+        "/customer_orders/6239798": {
+            "content-type": "application/vnd.api+json",
+            "mock": "customer_orders/6239798.json"
+        }
+    },
+    "POST": {
+        "/api/work_orders": {
+            "content-type": "application/vnd.api+json",
+            "mock": "work_orders.json"
+        }
+    }
+}

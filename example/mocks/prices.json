@@ -1,0 +1,824 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/Price",
+            "@id": "/api/prices",
+            "@type": "hydra:Collection",
+            "hydra:member": [
+                {
+                    "id": 309880583,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 0,
+                    "superiorQuantity": 24,
+                    "price": 5.34,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880584,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 25,
+                    "superiorQuantity": 49,
+                    "price": 4.84,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880585,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 50,
+                    "superiorQuantity": 99,
+                    "price": 4.14,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880586,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 100,
+                    "superiorQuantity": 249,
+                    "price": 3.79,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880587,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 250,
+                    "superiorQuantity": 499,
+                    "price": 3.64,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880588,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 500,
+                    "superiorQuantity": 999,
+                    "price": 3.54,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880589,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 1000,
+                    "superiorQuantity": 4999,
+                    "price": 3.44,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                },
+                {
+                    "id": 309880590,
+                    "priceType": {
+                        "@id": "/api/price_types/3501",
+                        "@type": "PriceType",
+                        "id": 3501,
+                        "companyNumber": 401,
+                        "label": "WEB revendeur",
+                        "ssc": 0,
+                        "unitSsc": "EUR",
+                        "eaInclude": "N",
+                        "applySst": "O",
+                        "applySsd": "O",
+                        "firmPrice": "O",
+                        "active": "O",
+                        "createTimestamp": "2019-08-05T15:54:25+02:00",
+                        "createUser": "DMUR",
+                        "updateTimestamp": "2020-12-22T10:44:54+01:00",
+                        "updateUser": "PBUI"
+                    },
+                    "materialCompany": {
+                        "@id": "/api/material_companies/212547",
+                        "@type": "MaterialCompany",
+                        "id": 212547,
+                        "companyNumber": 401,
+                        "purchasingPrice": 1,
+                        "precisePurchasingPrice": 1,
+                        "gradeTypeCode": "293",
+                        "salesRanking": {
+                            "id": 3,
+                            "name": "STANDARD",
+                            "order": null,
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        },
+                        "length": null,
+                        "material": {
+                            "id": 178654,
+                            "product": {
+                                "@id": "/api/products/21300",
+                                "@type": "Product",
+                                "id": 21300,
+                                "shape": "/api/shapes/3",
+                                "dimension1": 12,
+                                "dimension2": null,
+                                "dimension3": null,
+                                "dimension4": null,
+                                "dimension5": null,
+                                "characteristic1": "H",
+                                "characteristic2": null,
+                                "characteristic3": null,
+                                "characteristic4": null,
+                                "characteristic5": null,
+                                "characteristic6": null,
+                                "characteristic7": null,
+                                "characteristic8": null,
+                                "characteristic9": null,
+                                "characteristic10": null,
+                                "dimensions": {
+                                    "D1": 12,
+                                    "D2": null,
+                                    "D3": null,
+                                    "D4": null,
+                                    "D5": null
+                                },
+                                "unitWeight": 0.1131
+                            },
+                            "gradeDefinition": {
+                                "id": 259,
+                                "gradeTypeCode": "293",
+                                "materialType": {
+                                    "@id": "/api/material_types/TA",
+                                    "@type": "MaterialType",
+                                    "id": "TA",
+                                    "description": "Tools steels > Alloyed"
+                                },
+                                "normdef": "3",
+                                "density": 7.85,
+                                "__initializer__": null,
+                                "__cloner__": null,
+                                "__isInitialized__": true
+                            },
+                            "__initializer__": null,
+                            "__cloner__": null,
+                            "__isInitialized__": true
+                        }
+                    },
+                    "inferiorQuantity": 5000,
+                    "superiorQuantity": 10000,
+                    "price": 3.34,
+                    "currency": "EUR",
+                    "dateStart": "2021-02-01T14:36:37+01:00",
+                    "dateEnd": "2035-12-12T00:00:00+01:00",
+                    "saleUnit": "K",
+                    "calculated": "C"
+                }
+            ],
+            "hydra:totalItems": 8,
+            "hydra:view": {
+                "@id": "/api/prices?customerNumber=501354&companyNumber=401&idMaterialGroup=178654&standardLength=4000",
+                "@type": "hydra:PartialCollectionView"
+            },
+            "hydra:search": {
+                "@type": "hydra:IriTemplate",
+                "hydra:template": "/api/prices{?companyNumber,customerNumber,idMaterialGroup,standardLength}",
+                "hydra:variableRepresentation": "BasicRepresentation",
+                "hydra:mapping": [
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "companyNumber",
+                        "property": "companyNumber",
+                        "required": true
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerNumber",
+                        "property": "customerNumber",
+                        "required": true
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "idMaterialGroup",
+                        "property": "idMaterialGroup",
+                        "required": true
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "standardLength",
+                        "property": "standardLength",
+                        "required": false
+                    }
+                ]
+            }
+        }
+    }
+]

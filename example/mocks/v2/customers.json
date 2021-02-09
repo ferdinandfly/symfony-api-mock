@@ -1,0 +1,200 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/Customer",
+            "@id": "/api/customers",
+            "@type": "hydra:Collection",
+            "hydra:member": [
+                {
+                    "@id": "/api/customers/255885",
+                    "id": 255885,
+                    "name": "GERMOND SA",
+                    "vatNumber": "FR75085781292",
+                    "customerNumber": 501354,
+                    "companyNumber": 401,
+                    "roles": {
+                        "digital_client_account": true,
+                        "digital_webshop": true
+                    },
+                    "typeTarif": 3501,
+                    "agencies": [
+                        {
+                            "id": 291450,
+                            "name": "GERMOND SA",
+                            "code": "S00",
+                            "salesmanName": "FARIDA AZZI",
+                            "addresses": [
+                                {
+                                    "id": 555617,
+                                    "name": "GERMOND SA",
+                                    "streets": [
+                                        "36, RUE DE BAGNEAUX",
+                                        "Z.I  CH.BEAUHAIRE NORD",
+                                        "BP 121"
+                                    ],
+                                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                                    "postCode": "45143",
+                                    "countryCode": "F",
+                                    "type": "C"
+                                },
+                                {
+                                    "id": 555618,
+                                    "name": "GERMOND SA",
+                                    "streets": [
+                                        "36, RUE DE BAGNEAUX",
+                                        "Z.I  CH.BEAUHAIRE NORD",
+                                        "BP 121"
+                                    ],
+                                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                                    "postCode": "45143",
+                                    "countryCode": "F",
+                                    "type": "F"
+                                },
+                                {
+                                    "id": 555619,
+                                    "name": "GERMOND  SA",
+                                    "streets": [
+                                        "36 RUE DE BAGNEAUX",
+                                        "Z.I  CH.BEAUHAIRE NORD",
+                                        "BP 121"
+                                    ],
+                                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                                    "postCode": "45143",
+                                    "countryCode": "F",
+                                    "type": "L"
+                                },
+                                {
+                                    "id": 905200,
+                                    "name": "GERMOND SA",
+                                    "streets": [
+                                        "36, RUE DE BAGNEAUX",
+                                        "Z.I  CH.BEAUHAIRE NORD",
+                                        "BP 121"
+                                    ],
+                                    "city": "ST JEAN DE LA RUELLE CEDEX",
+                                    "postCode": "45143",
+                                    "countryCode": "F",
+                                    "type": "K"
+                                }
+                            ],
+                            "additionalCosts": [
+                                {
+                                    "@id": "/api/additional_costs/1822",
+                                    "id": 1822,
+                                    "idGroup": 1736,
+                                    "order": 1,
+                                    "price": 1,
+                                    "label": "LAB_CS_CARRIAGE",
+                                    "header": "O",
+                                    "unit": "K",
+                                    "line": "O",
+                                    "included": "O",
+                                    "codProd": "POR"
+                                },
+                                {
+                                    "@id": "/api/additional_costs/60581",
+                                    "id": 60581,
+                                    "idGroup": 1736,
+                                    "order": 2,
+                                    "price": 2,
+                                    "label": "LAB_CS_PACKING",
+                                    "header": "N",
+                                    "unit": "K",
+                                    "line": "N",
+                                    "included": "O",
+                                    "codProd": "EMB"
+                                },
+                                {
+                                    "@id": "/api/additional_costs/60582",
+                                    "id": 60582,
+                                    "idGroup": 1736,
+                                    "order": 3,
+                                    "price": 3,
+                                    "label": "LAB_CS_CERTIFICATE",
+                                    "header": "N",
+                                    "unit": "K",
+                                    "line": "N",
+                                    "included": "N",
+                                    "codProd": "CA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hydra:totalItems": 1,
+            "hydra:view": {
+                "@id": "/api/v2/customers?code=501354&codeCompany=401&pagination=0",
+                "@type": "hydra:PartialCollectionView"
+            },
+            "hydra:search": {
+                "@type": "hydra:IriTemplate",
+                "hydra:template": "/api/v2/customers{?code,code[],codeCompany,codeCompany[],customerRoles.role.code,customerRoles.role.code[],customerRoles.updatedAt[before],customerRoles.updatedAt[strictly_before],customerRoles.updatedAt[after],customerRoles.updatedAt[strictly_after]}",
+                "hydra:variableRepresentation": "BasicRepresentation",
+                "hydra:mapping": [
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "code",
+                        "property": "code",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "code[]",
+                        "property": "code",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "codeCompany",
+                        "property": "codeCompany",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "codeCompany[]",
+                        "property": "codeCompany",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.role.code",
+                        "property": "customerRoles.role.code",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.role.code[]",
+                        "property": "customerRoles.role.code",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.updatedAt[before]",
+                        "property": "customerRoles.updatedAt",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.updatedAt[strictly_before]",
+                        "property": "customerRoles.updatedAt",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.updatedAt[after]",
+                        "property": "customerRoles.updatedAt",
+                        "required": false
+                    },
+                    {
+                        "@type": "IriTemplateMapping",
+                        "variable": "customerRoles.updatedAt[strictly_after]",
+                        "property": "customerRoles.updatedAt",
+                        "required": false
+                    }
+                ]
+            }
+        }
+    }
+]

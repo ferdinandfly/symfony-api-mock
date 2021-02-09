@@ -1,0 +1,101 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/CustomerOrder",
+            "@id": "/api/customer_orders",
+            "@type": "hydra:Collection",
+            "hydra:member": [
+                {
+                    "@id": "/api/customer_orders/6239813",
+                    "@type": "CustomerOrder",
+                    "id": 6239813,
+                    "companyNumber": 401,
+                    "customerOrderNumber": 387727,
+                    "customerNumber": 501354,
+                    "customerAgencyCode": "S00",
+                    "shippingAddressCode": "LIV",
+                    "billingAddressCode": "FAC",
+                    "seller": "FPOU",
+                    "customerReference": "Test ca avec Hao",
+                    "orderedDate": "2021-02-08T00:00:00+01:00",
+                    "totalPrice": 37.51,
+                    "currency": "EUR",
+                    "state": "A",
+                    "creationChannel": "WEBSHOP",
+                    "shippingAddress": null,
+                    "billingAddress": null,
+                    "comments": []
+                },
+                {
+                    "@id": "/api/customer_orders/6239801",
+                    "@type": "CustomerOrder",
+                    "id": 6239801,
+                    "companyNumber": 401,
+                    "customerOrderNumber": 387722,
+                    "customerNumber": 501354,
+                    "customerAgencyCode": "S00",
+                    "shippingAddressCode": "LIV",
+                    "billingAddressCode": "FAC",
+                    "seller": "FPOU",
+                    "customerReference": "test FA inclus / affiché",
+                    "orderedDate": "2021-02-08T00:00:00+01:00",
+                    "totalPrice": 135.06,
+                    "currency": "EUR",
+                    "state": "A",
+                    "creationChannel": "WEBSHOP",
+                    "shippingAddress": null,
+                    "billingAddress": null,
+                    "comments": []
+                },
+                {
+                    "@id": "/api/customer_orders/6239798",
+                    "@type": "CustomerOrder",
+                    "id": 6239798,
+                    "companyNumber": 401,
+                    "customerOrderNumber": 387720,
+                    "customerNumber": 501354,
+                    "customerAgencyCode": "S00",
+                    "shippingAddressCode": "LIV",
+                    "billingAddressCode": "FAC",
+                    "seller": "FPOU",
+                    "customerReference": "test ca fa \"affiché\"",
+                    "orderedDate": "2021-02-08T00:00:00+01:00",
+                    "totalPrice": 22.68,
+                    "currency": "EUR",
+                    "state": "A",
+                    "creationChannel": "WEBSHOP",
+                    "shippingAddress": null,
+                    "billingAddress": null,
+                    "comments": []
+                },
+                {
+                    "@id": "/api/customer_orders/6232882",
+                    "@type": "CustomerOrder",
+                    "id": 6232882,
+                    "companyNumber": 401,
+                    "customerOrderNumber": 387142,
+                    "customerNumber": 501354,
+                    "customerAgencyCode": "S00",
+                    "shippingAddressCode": "LIV",
+                    "billingAddressCode": "FAC",
+                    "seller": "FPOU",
+                    "customerReference": "2101301",
+                    "orderedDate": "2021-02-04T00:00:00+01:00",
+                    "totalPrice": 67.71,
+                    "currency": "EUR",
+                    "state": "L",
+                    "creationChannel": "WEBSHOP",
+                    "shippingAddress": null,
+                    "billingAddress": null,
+                    "comments": []
+                }
+            ],
+            "hydra:totalItems": 4,
+            "hydra:view": {
+                "@id": "/api/customer_orders?customerNumber=501354&companyNumber=401&state%5B%5D=A&state%5B%5D=E&state%5B%5D=P&state%5B%5D=L&state%5B%5D=T&orderedDate%5Bstrictly_after%5D=2020-02-08&itemsPerPage=200&order%5BcustomerOrderNumber%5D=DESC&order%5BorderedDate%5D=DESC&customerOrderLines.enabled=O&exists%5BcustomerOrderLines%5D=1",
+                "@type": "hydra:PartialCollectionView"
+            }
+        }
+    }
+]

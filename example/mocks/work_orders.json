@@ -1,0 +1,175 @@
+[
+    {
+        "status": 201,
+        "response": {
+            "@context": {
+                "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                "hydra": "http://www.w3.org/ns/hydra/core#",
+                "PROVENANCE": "WorkOrderInput/PROVENANCE",
+                "RESPONSE_BY_MAIL": "WorkOrderInput/RESPONSE_BY_MAIL",
+                "CUSTOMER": "WorkOrderInput/CUSTOMER",
+                "COMMENT_PRINTDOC": "WorkOrderInput/COMMENT_PRINTDOC",
+                "BTORDER": "WorkOrderInput/BTORDER"
+            },
+            "@type": "WorkOrder",
+            "@id": "/api/work_orders/601d0913de6ed",
+            "PROVENANCE": "WEBSHOP",
+            "RESPONSE_BY_MAIL": false,
+            "CUSTOMER": {
+                "@context": {
+                    "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                    "hydra": "http://www.w3.org/ns/hydra/core#",
+                    "NUMCLI": "CustomerInput/NUMCLI",
+                    "NUMSOC": "CustomerInput/NUMSOC"
+                },
+                "@type": "CustomerInput",
+                "@id": "_:3683",
+                "NUMCLI": 501354,
+                "NUMSOC": 401
+            },
+            "COMMENT_PRINTDOC": [
+                "BL",
+                "BT"
+            ],
+            "BTORDER": [
+                {
+                    "@context": {
+                        "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                        "hydra": "http://www.w3.org/ns/hydra/core#",
+                        "ORDERNUMBER": "BtOrderInput/ORDERNUMBER",
+                        "REFCLI": "BtOrderInput/REFCLI",
+                        "AGENCE": "BtOrderInput/AGENCE",
+                        "LIEU": "BtOrderInput/LIEU",
+                        "DELIVERYADDRESSID": "BtOrderInput/DELIVERYADDRESSID",
+                        "DELIVERYADDRESS": "BtOrderInput/DELIVERYADDRESS",
+                        "INVOICEADDRESS": "BtOrderInput/INVOICEADDRESS",
+                        "COMMENTS": "BtOrderInput/COMMENTS",
+                        "LINESORDER": "BtOrderInput/LINESORDER",
+                        "EXTRACOSTS": "BtOrderInput/EXTRACOSTS",
+                        "INDIC_LIVR_PARTIEL": "BtOrderInput/INDIC_LIVR_PARTIEL",
+                        "SCHEDULE_RESERVATION": "BtOrderInput/SCHEDULE_RESERVATION"
+                    },
+                    "@type": "BtOrderInput",
+                    "@id": "_:3681",
+                    "ORDERNUMBER": 386145,
+                    "REFCLI": "Commande webshop",
+                    "AGENCE": "S00",
+                    "LIEU": "",
+                    "DELIVERYADDRESSID": 555619,
+                    "DELIVERYADDRESS": {
+                        "@context": {
+                            "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                            "hydra": "http://www.w3.org/ns/hydra/core#",
+                            "LIBCOMM": "AddressInput/LIBCOMM",
+                            "LIBADR1": "AddressInput/LIBADR1",
+                            "LIBADR2": "AddressInput/LIBADR2",
+                            "LIBADR3": "AddressInput/LIBADR3",
+                            "CODPAYS": "AddressInput/CODPAYS",
+                            "CODPOST": "AddressInput/CODPOST",
+                            "LIBVILLE": "AddressInput/LIBVILLE",
+                            "STATE": "AddressInput/STATE"
+                        },
+                        "@type": "AddressInput",
+                        "@id": "_:3700",
+                        "LIBCOMM": "JM Digital Team",
+                        "LIBADR1": "36 RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                        "LIBADR2": "",
+                        "LIBADR3": "",
+                        "CODPAYS": "F",
+                        "CODPOST": "45143",
+                        "LIBVILLE": "ST JEAN DE LA RUELLE CEDEX",
+                        "STATE": null
+                    },
+                    "INVOICEADDRESS": {
+                        "@context": {
+                            "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                            "hydra": "http://www.w3.org/ns/hydra/core#",
+                            "LIBCOMM": "AddressInput/LIBCOMM",
+                            "LIBADR1": "AddressInput/LIBADR1",
+                            "LIBADR2": "AddressInput/LIBADR2",
+                            "LIBADR3": "AddressInput/LIBADR3",
+                            "CODPAYS": "AddressInput/CODPAYS",
+                            "CODPOST": "AddressInput/CODPOST",
+                            "LIBVILLE": "AddressInput/LIBVILLE",
+                            "STATE": "AddressInput/STATE"
+                        },
+                        "@type": "AddressInput",
+                        "@id": "_:3696",
+                        "LIBCOMM": "JM Digital Team",
+                        "LIBADR1": "36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                        "LIBADR2": "",
+                        "LIBADR3": "",
+                        "CODPAYS": "F",
+                        "CODPOST": "45143",
+                        "LIBVILLE": "ST JEAN DE LA RUELLE CEDEX",
+                        "STATE": null
+                    },
+                    "COMMENTS": [],
+                    "LINESORDER": [
+                        {
+                            "@context": {
+                                "@vocab": "http://japi.ticket.jacquetmetals.com/api/docs.jsonld#",
+                                "hydra": "http://www.w3.org/ns/hydra/core#",
+                                "ID_MATERIEL_GROUPE": "LineOrderInput/ID_MATERIEL_GROUPE",
+                                "LIBNUANCE": "LineOrderInput/LIBNUANCE",
+                                "NUMREF": "LineOrderInput/NUMREF",
+                                "CODNORM": "LineOrderInput/CODNORM",
+                                "CODPROD": "LineOrderInput/CODPROD",
+                                "DIMENSIONS": "LineOrderInput/DIMENSIONS",
+                                "CODMACH": "LineOrderInput/CODMACH",
+                                "REFCLI": "LineOrderInput/REFCLI",
+                                "DATLIVR": "LineOrderInput/DATLIVR",
+                                "QTE": "LineOrderInput/QTE",
+                                "UV": "LineOrderInput/UV",
+                                "UC": "LineOrderInput/UC",
+                                "PDS": "LineOrderInput/PDS",
+                                "PV": "LineOrderInput/PV",
+                                "PVBASE": "LineOrderInput/PVBASE",
+                                "TYPLONGUEUR": "LineOrderInput/TYPLONGUEUR",
+                                "LONGUEUR": "LineOrderInput/LONGUEUR",
+                                "LIEU": "LineOrderInput/LIEU",
+                                "REFPRODCLI": "LineOrderInput/REFPRODCLI",
+                                "NUM_CONTRAT": "LineOrderInput/NUM_CONTRAT",
+                                "CCPU2": "LineOrderInput/CCPU2",
+                                "EXTRACOSTS": "LineOrderInput/EXTRACOSTS",
+                                "INDIC_LIVR_PARTIEL": "LineOrderInput/INDIC_LIVR_PARTIEL",
+                                "STOCKREQUESTPAYLOAD": "LineOrderInput/STOCKREQUESTPAYLOAD",
+                                "SPLITTED_LINE": "LineOrderInput/SPLITTED_LINE"
+                            },
+                            "@type": "LineOrderInput",
+                            "@id": "_:3697",
+                            "ID_MATERIEL_GROUPE": 180605,
+                            "LIBNUANCE": "S235JRC",
+                            "NUMREF": "",
+                            "CODNORM": "",
+                            "CODPROD": "",
+                            "DIMENSIONS": "",
+                            "CODMACH": "N",
+                            "REFCLI": null,
+                            "DATLIVR": "",
+                            "QTE": 1,
+                            "UV": "K",
+                            "UC": "P",
+                            "PDS": "",
+                            "PV": 20.89,
+                            "PVBASE": "",
+                            "TYPLONGUEUR": "S",
+                            "LONGUEUR": "3000",
+                            "LIEU": "",
+                            "REFPRODCLI": "",
+                            "NUM_CONTRAT": "",
+                            "CCPU2": "",
+                            "EXTRACOSTS": null,
+                            "INDIC_LIVR_PARTIEL": "N",
+                            "STOCKREQUESTPAYLOAD": "eyJ6b25lIjoiRVVSIiwibWFycXVlIjoiSU1TIiwiY2libGUiOjAsIm51YW5jZSI6IlMyMzVKUkMiLCJmb3JtZSI6Ik5CUiIsInVuaXRlIjoiTSIsImRldmlzZSI6IkVVUiIsImRpbWVuc2lvbnMiOnsibGVuZ3RoIjozMDAwLCJ2YWx1ZXMiOnsiMSI6IjQifX0sImNoYXJhY3RlcmlzdGljcyI6eyIxIjoiQyIsIjMiOiJIOSJ9LCJjb2RlUGF5cyI6ImZyLWZyIiwibnVtQ2xpIjo1MDEzNTQsImlkTWF0ZXJpYWxHcm91cCI6MTgwNjA1LCJudW1Tb2MiOjQwMSwiY2VydGlmaWNhdGUiOm51bGwsImlzTG9uZ1Byb2R1Y3QiOnRydWUsInF1YW50aXR5UmVxdWVzdGVkIjoxLCJzaGlwcGluZ0FkZHJlc3MiOiJKTSBEaWdpdGFsIFRlYW0gLSAzNiBSVUUgREUgQkFHTkVBVVggWi5JICBDSC5CRUFVSEFJUkUgTk9SRCBCUCAxMjEgLSBTVCBKRUFOIERFIExBIFJVRUxMRSBDRURFWCAtIDQ1MTQzIC0gRiIsImNvbnRhY3RFbWFpbCI6ImgudGFuQGphY3F1ZXRtZXRhbHMuY29tIiwic2hpcHBpbmdBZGRyZXNzSWQiOjU1NTYxOSwiYWdlbmN5Q29kZSI6IlMwMCJ9",
+                            "SPLITTED_LINE": null
+                        }
+                    ],
+                    "EXTRACOSTS": null,
+                    "INDIC_LIVR_PARTIEL": "N",
+                    "SCHEDULE_RESERVATION": true
+                }
+            ]
+        }
+    }
+]

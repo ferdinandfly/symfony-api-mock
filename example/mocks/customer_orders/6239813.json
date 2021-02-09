@@ -1,0 +1,109 @@
+[
+    {
+        "status": 200,
+        "response": {
+            "@context": "/api/contexts/CustomerOrder",
+            "@id": "/api/customer_orders/6239813",
+            "@type": "CustomerOrder",
+            "id": 6239813,
+            "companyNumber": 401,
+            "customerOrderNumber": 387727,
+            "customerNumber": 501354,
+            "customerAgencyCode": "S00",
+            "shippingAddressCode": "LIV",
+            "billingAddressCode": "FAC",
+            "seller": "FPOU",
+            "customerReference": "Test ca avec Hao",
+            "orderedDate": "2021-02-08T00:00:00+01:00",
+            "totalPrice": 37.51,
+            "currency": "EUR",
+            "state": "A",
+            "creationChannel": "WEBSHOP",
+            "customerOrderLines": [
+                {
+                    "@id": "/api/customer_order_lines/19878995",
+                    "@type": "CustomerOrderLine",
+                    "id": 19878995,
+                    "customerOrder": "/api/customer_orders/6239813",
+                    "lineIndex": null,
+                    "lineIndexBTRSF": null,
+                    "blockCode": "CD24",
+                    "machineCode": "N",
+                    "shortDescription": "Plat étiré S235JRC  10 x 2 mm",
+                    "customerReference": "Test ca avec Hao",
+                    "weight": 3,
+                    "additionalCosts": [],
+                    "quantity": 6,
+                    "salesUnit": "K",
+                    "orderUnit": "P",
+                    "price": 12.5,
+                    "basePrice": 12.17,
+                    "extraPrice": 0,
+                    "totalPriceWithoutAdditionalCost": 30.51,
+                    "totalPrice": 36.51,
+                    "state": null,
+                    "stateDisplay": null,
+                    "currency": "EUR",
+                    "roundCode": null,
+                    "location": "IB",
+                    "deliveryDate": null,
+                    "enabled": "O",
+                    "comments": [],
+                    "lineNumber": 1,
+                    "dimensions": "10/2",
+                    "jac3Length": 3000,
+                    "display": "10/2/C SL 3000mm"
+                }
+            ],
+            "additionalCosts": [
+                {
+                    "id": 2689994,
+                    "lineNumber": 0,
+                    "codProd": "EMB",
+                    "label": "¤LAB_CS_PACKING¤",
+                    "price": 1,
+                    "totalPrice": 1,
+                    "unit": "U",
+                    "line": "O",
+                    "order": 1,
+                    "included": "O",
+                    "currency": "EUR"
+                },
+                {
+                    "id": 2689995,
+                    "lineNumber": 0,
+                    "codProd": "POR",
+                    "label": "¤LAB_CS_CARRIAGE¤",
+                    "price": 2,
+                    "totalPrice": 6,
+                    "unit": "K",
+                    "line": "O",
+                    "order": 2,
+                    "included": "O",
+                    "currency": "EUR"
+                }
+            ],
+            "shippingAddress": {
+                "lineCode": "L",
+                "name": "JM Digital Team",
+                "addressLine1": "36 RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                "addressLine2": null,
+                "addressLine3": null,
+                "city": "ST JEAN DE LA RUELLE CEDEX",
+                "postCode": "45143",
+                "countryCode": "F"
+            },
+            "billingAddress": {
+                "lineCode": "F",
+                "name": "JM Digital Team",
+                "addressLine1": "36, RUE DE BAGNEAUX Z.I  CH.BEAUHAIRE NORD BP 121",
+                "addressLine2": null,
+                "addressLine3": null,
+                "city": "ST JEAN DE LA RUELLE CEDEX",
+                "postCode": "45143",
+                "countryCode": "F"
+            },
+            "comments": []
+        }
+    }
+]
