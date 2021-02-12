@@ -102,10 +102,10 @@
                                     "order": 2,
                                     "price": 2,
                                     "label": "LAB_CS_PACKING",
-                                    "header": "O",
-                                    "unit": "K",
+                                    "header": "N",
+                                    "unit": "P",
                                     "line": "O",
-                                    "included": "O",
+                                    "included": "N",
                                     "codProd": "EMB"
                                 },
                                 {
@@ -113,13 +113,39 @@
                                     "id": 60582,
                                     "idGroup": 1736,
                                     "order": 3,
-                                    "price": 13,
+                                    "price": 10,
                                     "label": "LAB_CS_CERTIFICATE",
+                                    "header": "N",
+                                    "unit": "U",
+                                    "line": "O",
+                                    "included": "O",
+                                    "codProd": "CA"
+                                },
+                                {
+                                    "@id": "/api/additional_costs/60583",
+                                    "id": 60583,
+                                    "idGroup": 1736,
+                                    "order": 4,
+                                    "price": 4,
+                                    "label": "LAB_CS_LOGIS_FLAT",
                                     "header": "N",
                                     "unit": "K",
                                     "line": "O",
                                     "included": "O",
-                                    "codProd": "CA"
+                                    "codProd": "FF"
+                                },
+                                {
+                                    "@id": "/api/additional_costs/60584",
+                                    "id": 60584,
+                                    "idGroup": 1736,
+                                    "order": 5,
+                                    "price": 5,
+                                    "label": "LAB_CS_LOGIS_ARR",
+                                    "header": "N",
+                                    "unit": "K",
+                                    "line": "O",
+                                    "included": "N",
+                                    "codProd": "FF"
                                 }
                             ]
                         }
